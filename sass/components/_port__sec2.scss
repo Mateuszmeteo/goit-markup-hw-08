@@ -1,0 +1,83 @@
+@media screen and (min-width: 1200px) {
+    .wrap {
+        /* background-color: antiquewhite; */
+        display: flex;
+        font-family: 'Roboto', sans-serif;
+    }
+    .wrap__list {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 94px;
+        list-style: none;
+        padding: 0;
+        gap: 30px;
+    }
+    .wrap__list-element {
+        // display: flex;
+        flex-basis: calc(100%/3);
+        margin-bottom: 30px;
+        max-width: 370px;        
+    
+    }
+    .wrap__list-element:hover {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+    .wrap__list-portimg {
+        position: relative;
+        width: 370px;
+        height: 294px;
+        overflow: hidden;
+    }
+    .wrap__list-portimg:hover .wrap__list-overlay {
+        transform: translatey(0);
+        background-color: rgba(33, 150, 243, 0.9);
+        /* background-color: blueviolet; */
+    }                     
+    .wrap__list-wraptext {
+        background-color: #ffffff;
+        border: 1px solid #EEEEEE;
+        width: 370px;
+        height: 110px;
+        padding: 20px 24px 20px 24px;
+    }
+    .wrap__list-wraptext-h3 {
+        /* margin-inline-start: 30px; */
+        font-size: 18px;
+        /* line-height: 36px; */
+        line-height: 0.5;
+        letter-spacing: 0.06em;
+        /* margin-bottom: 4px; */
+    }
+    .wrap__list-wraptext-p {
+        /* margin-inline-start: 30px; */
+        color: #757575;
+        font-size: 16px;
+        line-height: 0.533;
+        /* line-height: 30px; */
+        letter-spacing: 0.03em;
+    }
+    
+    .wrap__list-overlay {
+        position: absolute;
+      top: 0;
+      left: 0;
+      /* width: 370px;
+      height: 294px; */
+      padding: 49px 45px 49px 24px;
+    
+      transform: translatey(100%);
+      /* transition: transform 5s ease; */
+      transition: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .wrap__list-overlay-p {
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 1.55;
+        color: #ffffff;
+        margin:auto;
+        
+    
+    }
+    
+}

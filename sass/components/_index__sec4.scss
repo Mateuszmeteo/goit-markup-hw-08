@@ -1,0 +1,209 @@
+@media screen and (min-width: 480px) {
+    .squad {
+        /* background-color: blanchedalmond; */
+        background: #F5F4FA;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // height: 648px;
+    }
+    
+    .squad__teamdiv {
+        /* margin-block: 94px; */
+        /* background-color: rgb(121, 45, 45); */
+        font-family: 'Roboto', sans-serif;
+    }
+    .squad__teamdiv-h2 {
+        text-align: center;
+        font-size: 36px;
+        line-height: 0.857;
+        /* line-height: 42px; */
+        letter-spacing: 0.03em;
+        margin-block-end: 50px;
+    }
+    
+    .squad__teamdiv-list {
+        gap: 30px;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+    
+    .squad__teamdiv-listelement{
+        // width: 450px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0px 0px 4px 4px;
+        background-color: #ffffff;
+        text-align: center;
+    }
+    // .squad__teamdiv-img {
+    //     width: 450px;
+    //     height: 460px;
+    // }
+    // .squad__teamdiv-img {
+    //     max-width: 100%;
+    //     max-height: 100%;
+    // }
+    .squad__teamdiv-h3 {
+        font-size: 16px;
+        line-height: 0.842;
+        /* line-height: 19px; */
+        letter-spacing: 0.03em;
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    .squad__teamdiv-p {
+        font-size: 16px;
+        line-height: 0.842;
+        /* line-height: 19px; */
+        letter-spacing: 0.03em;
+        color:#757575;
+        padding-bottom: 16px;
+    }
+    
+    .squad__teamlist {
+        /* background-color: cadetblue; */
+        margin-bottom: 30px; 
+        gap: 10px;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .squad__teamlist-element {
+        /* border: 1px solid rgb(152, 146, 158); */
+        /* background-color: crimson; */
+        border-radius: 50%;
+        width: 44px;
+        height: 44px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* padding: 14px; */
+        box-shadow: none;
+        fill: #AFB1B8;
+        transition: 250ms;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    .squad__teamlist-element:hover {
+        background-color: #2196F3;
+        fill: #ffffff;
+        
+    }
+}
+@media screen and (max-width: 767px) {
+    .squad__teamdiv-img {
+        width: 450px;
+        height: 460px;
+    }
+}
+@media screen and (min-width: 768x) {
+    .squad {
+        /* background-color: blanchedalmond; */
+        // background: #F5F4FA;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // height: 648px;
+    }
+    
+    .squad__teamdiv {
+        /* margin-block: 94px; */
+        /* background-color: rgb(121, 45, 45); */
+        // font-family: 'Roboto', sans-serif;
+    }
+    .squad__teamdiv-h2 {
+        // text-align: center;
+        // font-size: 36px;
+        // line-height: 0.857;
+        /* line-height: 42px; */
+        // letter-spacing: 0.03em;
+        // margin-block-end: 50px;
+    }
+    
+    .squad__teamdiv-list {
+        // gap: 0;
+        // list-style: none;
+        // display: flex;
+        // justify-content: center;
+        // padding: 0;
+    }
+    
+    .squad__teamdiv-listelement{
+        // width: 270px;
+        // box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+        // border-radius: 0px 0px 4px 4px;
+        // background-color: #ffffff;
+        // text-align: center;
+    }
+    
+    // .squad__teamdiv-img {
+    //     max-width: 100%;
+    //     max-height: 100%;
+    // }
+    //     .squad__teamdiv-img {
+    //     width: 270px;
+    //     height: 260px;
+    // }
+    .squad__teamdiv-h3 {
+        // font-size: 16px;
+        // line-height: 0.842;
+        /* line-height: 19px; */
+        // letter-spacing: 0.03em;
+        // padding-top: 30px;
+        // padding-bottom: 10px;
+    }
+    .squad__teamdiv-p {
+        // font-size: 16px;
+        // line-height: 0.842;
+        // /* line-height: 19px; */
+        // letter-spacing: 0.03em;
+        // color:#757575;
+        // padding-bottom: 16px;
+    }
+    
+    .squad__teamlist {
+        // /* background-color: cadetblue; */
+        // margin-bottom: 30px; 
+        // gap: 10px;
+        // list-style: none;
+        // display: flex;
+        // justify-content: center;
+        // padding: 0;
+    }
+    .squad__teamlist-element {
+        // /* border: 1px solid rgb(152, 146, 158); */
+        // /* background-color: crimson; */
+        // border-radius: 50%;
+        // width: 44px;
+        // height: 44px;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // /* padding: 14px; */
+        // box-shadow: none;
+        // fill: #AFB1B8;
+        // transition: 250ms;
+        // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        }
+    .squad__teamlist-element:hover {
+        // background-color: #2196F3;
+        // fill: #ffffff;
+        
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1199px) {
+    .squad__teamdiv-img {
+        width: 354px;
+        height: 374px;
+    }
+        
+    
+}
+
+@media screen and (min-width: 1200px) {
+    
+}
