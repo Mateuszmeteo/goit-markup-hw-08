@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) {
+// @media screen and (min-width: 480px) {
     .nolink {
         /* komponenty */
         text-decoration: none;
@@ -130,7 +130,7 @@
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
     }
     
-}
+// }
 @media screen and (max-width:767px) {
     .logoup2 {
         display: none;
@@ -149,6 +149,7 @@
     }
     .headdiv__nav2-list {
         flex-direction: column;
+        
         // display: inline;
         // flex-wrap: wrap;
     }
@@ -157,7 +158,13 @@
     }
 }
 
-
+// @media screen and (max-width: 1199px) {
+//     .headdiv__nav2-list {
+//         display: flex;
+//         justify-content: space-around;
+//     }
+    
+// }
 @media screen and (min-width: 1200px) {
     .nolink {
         /* komponenty */

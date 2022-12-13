@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) {
+// @media screen and (min-width: 480px) {
     .skills {
         /* background-color: beige; */
         display: flex;
@@ -55,7 +55,7 @@
         text-align: justify;
     
     }
-}
+// }
 
 @media screen and (max-width: 767px) {
     .skills__box {
@@ -85,6 +85,11 @@
     .skills__div-list {
         // max-width: 354px;
         text-align: justify;
+        display: grid;
+        grid-template-columns: 100% 2fr;
+        gap: 30px;
+        
+
     
 
         // display: flex;
@@ -155,6 +160,7 @@
         // color: #757575;
         // font-size: 14px;
         // letter-spacing: 0.03em;
+        // text-align: justify;
     
     }    
 }
