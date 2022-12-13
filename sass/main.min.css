@@ -1135,6 +1135,12 @@
     height: 374px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .squad__teamdiv {
+    margin-top: 94px;
+    margin-bottom: 94px;
+  }
+}
 .customers {
   /* background-color: aquamarine; */
   font-family: "Roboto", sans-serif;
