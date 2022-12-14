@@ -30,7 +30,7 @@
         font-family: 'Roboto', sans-serif;
     }
     
-    .headdiv ul {
+    .headdiv__nav1-list {
         list-style: none;
         padding: 0;
         display: flex;
@@ -58,12 +58,14 @@
     .headdiv__nav2-list {
         /* background-color: cornsilk; */
         /* display: flex; */
-        justify-content: center;
+        // gap: 10px;
+        // justify-content: center;
         /* display: flex;
         display: inline-flex;
         justify-content: center;
         align-items: center; 
         margin-right: 10px; */
+        
     }
     .headdiv__nav2-listelement {
         /* background-color: blue; */
@@ -155,24 +157,65 @@
     .logoup2 {
         // visibility: visible;
     }
+    .headdiv__nav2 {
+        // background-color: beige;
+
+    }
     .headdiv__nav2-list {
-        flex-direction: column;
+        // background-color: aqua;
+        // list-style: none;
+        // padding: 0;
+        
+        
+
+        // gap: 10px;
+        // flex-direction: column;
+        
+        
+        // align-items: center;
+        
+        // flex-wrap: wrap;
+        // flex-direction: column;
+        // flex-wrap: wrap;
+        
+        
         
         // display: inline;
         // flex-wrap: wrap;
+    }
+    // .headdiv__nav2-list :nth-child(2) {
+    //     margin-top: 10px;
+    // }
+
+
+    .headdiv__nav2-listelement {
+        // background-color:cadetblue ;
+        // display: flex;
+        // gap: 10px;
+        
     }
     .headdiv__div3 {
         display: none;
     }
 }
 
-// @media screen and (max-width: 1199px) {
-//     .headdiv__nav2-list {
-//         display: flex;
-//         justify-content: space-around;
-//     }
+@media screen and (max-width: 1199px) {
+    .headdiv__nav2-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+   
+    }
+    // .headdiv__nav2-list :nth-child(2) {
+    //     margin-top: 10px;
+    // }
+    .headdiv__nav2-listelement {
+        margin-top: 10px;
+    }
     
-// }
+}
+
+
 @media screen and (min-width: 1200px) {
     .nolink {
         /* komponenty */
@@ -205,7 +248,7 @@
         font-family: 'Roboto', sans-serif;
     }
     
-    .headdiv ul {
+    .headdiv__nav1-list {
         list-style: none;
         padding: 0;
         display: flex;
@@ -224,6 +267,9 @@
     }
     .headdiv__div2 {
         // visibility: visible;
+        display: flex;
+        // justify-content: center;
+        align-items: center;
     }
     .headdiv__nav2 {
         /* modyfikator */
@@ -232,9 +278,15 @@
     }
     .headdiv__nav2-list {
         /* background-color: cornsilk; */
+        list-style: none;
+        padding: 0;
+        display: flex;
+        gap: 30px;
+        text-decoration: none;
+        margin: 0;
         /* display: flex; */
-        justify-content: center;
-        flex-direction: row;
+        // justify-content: center;
+        // flex-direction: row;
         /* display: flex;
         display: inline-flex;
         justify-content: center;
