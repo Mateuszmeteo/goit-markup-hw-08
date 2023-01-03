@@ -6,20 +6,16 @@
 }
 
 
-// .container {
-//     margin: 0 auto;
-//     inline-size: 100%;
-//     max-inline-size: 1200px;
-//     padding: 0 15px;
-// }
+.container {
+    margin: 0 auto;
+    inline-size: 100%;
+    padding: 0 15px;
+}
 
 
 @media screen and (min-width:480px) {
     .container {
         max-inline-size: 480px;
-        margin: 0 auto;
-        inline-size: 100%;
-        padding: 0 15px;
     }
 }
 @media screen and (min-width:768px) {

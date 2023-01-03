@@ -6,8 +6,6 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: 50% 50%;
-        /* background-color: rgba(47, 48, 58, 1); */
-        // width: 480px;
         height: 400px;
         display: flex;
         align-items: center;
@@ -21,11 +19,7 @@
         align-items: center;
     }
     
-    .cover__divbox {
-        /* align-items: center; */
-        /* font-family: 'Roboto', sans-serif; */
-        /* max-width: 696px; */
-    }
+  
     .cover__divbox-h1 {
     
         text-transform: uppercase;
@@ -59,7 +53,6 @@
         background-image: url(./../images/imgback.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        /* background-color: rgba(47, 48, 58, 1); */
         height: 600px;
         display: flex;
         align-items: center;
@@ -73,11 +66,6 @@
         align-items: center;
     }
     
-    .cover__divbox {
-        /* align-items: center; */
-        /* font-family: 'Roboto', sans-serif; */
-        /* max-width: 696px; */
-    }
     .cover__divbox-h1 {
     
         text-transform: uppercase;
