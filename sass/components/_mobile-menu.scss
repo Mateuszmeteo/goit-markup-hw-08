@@ -1,25 +1,118 @@
-.menu-toggle:focus .menu-container {
-    transform: translatey(0);
-    
-}
-// .menu-container {
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     height: 294px;
-//     padding: 49px 45px 49px 24px;
-
-    // transform: translatey(100%);
-    // transition: 250ms;
-    // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    // display: flex;
-// }
 
 .menu-container {
     // visibility: hidden;
     position: absolute;
     top: 0;
     background-color: #fff;
-    width: 100%;
-    height: 100%;
+    width: 480px;
+    height: 796px;
+    transition: transform 0.25s;
+    transform: translatey(-100%);
+
+}
+.is-open {
+    transform: translatey(0);
+    
+}
+
+.btn-menu-close {
+    margin-top: 21px;
+    margin-left: 350px;
+    // margin-left: 476px;
+}
+
+.mobile-menu-div {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+}
+
+.mobile-menu-div ul {
+    
+    list-style: none;
+    padding: 0;
+    margin-left: 40px;
+    margin-top: 0;
+}
+
+.mobile-menu-list1 {
+    // display: flex;
+    // flex-direction: column;
+
+}
+
+.mobile-link {
+    text-decoration: none;
+    color: rgba(33, 33, 33, 1);
+    font-size: 40px;
+    line-height: 0.85;
+    
+}
+.mobile-menu-list1--snd {
+    margin-top: 36px;
+    
+}
+.mobile-menu-list1--tth {
+    margin-top: 32px;
+    
+}
+
+.mobile-link:hover {
+    color: rgba(33, 150, 243, 1);
+}
+
+
+// list2
+.mobile-menu-list2--fst {
+    margin-top: 302px;
+}
+.mobile-menu-list2--snd {
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+.mobile-link-nav {
+    text-decoration: none;
+}
+
+.mobile-link-nav--fst {
+    color: rgba(33, 150, 243, 1);
+    font-size: 34px;
+    line-height: 0.85;
+}
+
+.mobile-link-nav--snd {
+    color: rgba(117, 117, 117, 1);
+    font-size: 24px;
+    line-height: 0.85;
+
+}
+
+// list3
+.mobile-menu-list3 {
+    display: flex;
+}
+
+.mobile-menu-social {
+    text-decoration: none;
+    color: rgba(33, 150, 243, 1);
+    font-size: 18px;
+    line-height: 0.81;
+}
+
+.mobile-menu-list3--fst {
+    padding-right: 10px;
+
+}
+.mobile-menu-list3--snd {
+    border-left: 1px solid rgba(33, 33, 33, 0.2);  
+    padding: 0 10px;
+}
+.mobile-menu-list3--tth {
+    border-left: 1px solid rgba(33, 33, 33, 0.2); 
+    padding: 0 10px;  
+}
+.mobile-menu-list3--fth {
+    border-left: 1px solid rgba(33, 33, 33, 0.2);
+    padding-left: 10px;
 }
